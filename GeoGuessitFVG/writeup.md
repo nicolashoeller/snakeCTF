@@ -1,15 +1,17 @@
-## CTF Writeup: "Geoguesser"
+## "GeoGuessitFVG - OSINT"
 
 ### Challenge Description
 
-In this challenge, a short video clip shows a man driving through a rural area surrounded by cornfields. During the drive, two key details stand out:
+Geoguess it. It's easy. It's in the FVG special administrative region.
+
+Our friend got lost while driving back home with his snake friends. He recorded this video and then stopped the car shortly after ending the recording. Can you help us locate him now?
 
 ### Video Hints and Map Constraints
 
 1. At one point, **two parallel high-voltage powerlines** cross the road.
 2. Immediately after the crossing, the road takes a **right-hand turn**.
 
-The goal is to determine the exact location where the video was recorded. The CTF website provides a map interface where the precise location must be **clicked within an accuracy of 80 meters**.
+The goal is to determine the exact location where the video was recorded. The CTF provides a map interface where the precise location must be **clicked within an accuracy of 80 meters**.
 
 The map has a fixed zoom level, showing the following bounding box as its limits:
 
@@ -85,7 +87,7 @@ With the KML data loaded in Google Earth, follow these steps:
   <img src="attachments/high_voltage_distribution_plant_2.png" alt="High-voltage substation" width="45%" />
 </p>
 
-3. Trace each powerline along its path, searching for stretches where **two lines run parallel** and find locations where these **parallel lines cross a road**.
+3. Trace the powerline along its path, searching for stretches where **two lines run parallel** and find locations where these **parallel lines cross a road**.
 
 ![Parallel Pylons](attachments/parallel_pylons.png)
 
