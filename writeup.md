@@ -52,7 +52,7 @@ This script does the following:
 * Filter for **roads** that intersect these nodes, focusing on primary, secondary, tertiary, or residential roads.
 * Output both the **powerlines** and the **crossing roads** for visualization.
 
-![Map of overpass turbo](turbo_map.png)
+![Map of overpass turbo](attachments/turbo_map.png)
 
 Run the query, then click **Export → KML** to download the data. Open the KML file in **Google Earth** for satellite inspection.
 
@@ -75,15 +75,15 @@ Concentrate on Udine and its surroundings because the combination of cornfields,
 With the KML data loaded in Google Earth, follow these steps:
 
 1. Identify **a high-voltage substations** near Udine, as most major powerlines originate there.
-![High-voltage substation](high_voltage_distribution_plant_1.png)
+![High-voltage substation](attachments/high_voltage_distribution_plant_1.png)
 2. Compare the model of the pylons originating from the substation with the ones in the video and eliminate any lines where the pylons do not match.
-![Pylons at substation](compare_pylons.png)
-![High-voltage substation](high_voltage_distribution_plant_2.png)
+![Pylons at substation](attachments/compare_pylons.png)
+![High-voltage substation](attachments/high_voltage_distribution_plant_2.png)
 3. Trace each powerline along its path, searching for stretches where **two lines run parallel** and find locations where these **parallel lines cross a road**.
-![Parallel Pylons](parallel_pylons.png)
+![Parallel Pylons](attachments/parallel_pylons.png)
 4. Check the road at each crossing for a **right-hand turn immediately afterward**, matching the video.
 5. Compare the surrounding terrain with the video: look for **cornfields, road type, and the angle of the turn**.
-![Google Earth](google_earth_final.png)
+![Google Earth](attachments/google_earth_final.png)
 
 Once all conditions match, the exact spot is identified.
 
@@ -92,7 +92,7 @@ Once all conditions match, the exact spot is identified.
 ### Step 4: Submit the location
 
 After identifying the correct location, **return to the CTF map** and click on the coordinates where the powerlines cross the road and the right-hand turn occurs. Ensure the placement is **within 80 meters accuracy**.
-![](map_final.png)
+![Final CTF submit](attachments/map_final.png)
 
 ---
 
