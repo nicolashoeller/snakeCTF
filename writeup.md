@@ -75,14 +75,23 @@ Concentrate on Udine and its surroundings because the combination of cornfields,
 With the KML data loaded in Google Earth, follow these steps:
 
 1. Identify **a high-voltage substations** near Udine, as most major powerlines originate there.
+
 ![High-voltage substation](attachments/high_voltage_distribution_plant_1.png)
-2. Compare the model of the pylons originating from the substation with the ones in the video and eliminate any lines where the pylons do not match.
-![Pylons at substation](attachments/compare_pylons.png)
-![High-voltage substation](attachments/high_voltage_distribution_plant_2.png)
+
+2. Compare the shadows of the pylons originating from the substation with the pylons in the video and eliminate any lines where the pylons do not match.
+
+<p float="left">
+  <img src="attachments/compare_pylons.png" alt="Pylons at substation" width="45%" />
+  <img src="attachments/high_voltage_distribution_plant_2.png" alt="High-voltage substation" width="45%" />
+</p>
+
 3. Trace each powerline along its path, searching for stretches where **two lines run parallel** and find locations where these **parallel lines cross a road**.
+
 ![Parallel Pylons](attachments/parallel_pylons.png)
+
 4. Check the road at each crossing for a **right-hand turn immediately afterward**, matching the video.
 5. Compare the surrounding terrain with the video: look for **cornfields, road type, and the angle of the turn**.
+
 ![Google Earth](attachments/google_earth_final.png)
 
 Once all conditions match, the exact spot is identified.
@@ -92,6 +101,7 @@ Once all conditions match, the exact spot is identified.
 ### Step 4: Submit the location
 
 After identifying the correct location, **return to the CTF map** and click on the coordinates where the powerlines cross the road and the right-hand turn occurs. Ensure the placement is **within 80 meters accuracy**.
+
 ![Final CTF submit](attachments/map_final.png)
 
 ---
